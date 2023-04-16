@@ -6,7 +6,7 @@ const NavbarLink = ({ linkData, currentLocation }) => {
     <li
       className={`${currentLocation === linkData.path && "font-bold underline"}
        ${currentLocation === linkData.path ? "text-white" : "text-gray-200"} 
-      mr-3 hover:underline`}
+      mr-3 hover:underline text-sm`}
     >
       <Link to={linkData.path}>{linkData.title}</Link>
     </li>

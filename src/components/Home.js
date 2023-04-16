@@ -1,10 +1,11 @@
 import React from "react";
 import Layout from "./commons/Layout";
+import Welcome from "./commons/Welcome";
 
 const Home = () => {
   return (
     <Layout>
-      <p className="font-bold">Hello from Home</p>
+      <Welcome />
     </Layout>
   );
 };
