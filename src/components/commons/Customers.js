@@ -66,14 +66,26 @@ const customers = [
 
 const Customers = () => (
   <div className="bg-white py-8">
-    <p className="text-center text-2xl font-bold text-blue-700 pb-8">
-      Nuestros clientes
-    </p>
-    <div className="flex justify-around px-12 flex-wrap">
+    <div className="w-full flex justify-center">
+      <div className="w-1/2">
+        <p className="text-center text-2xl font-bold text-blue-700 pb-2">
+          Nuestros clientes
+        </p>
+
+        <p className="text-center text-blue-900 pb-8">
+          Esto son algunos de los clientes con los que hemos colaborado a lo
+          largo de nuestra carrera como profesionales del aislamiento térmico.
+        </p>
+      </div>
+    </div>
+    <div className="flex justify-around px-12 flex-wrap mb-2">
       {customers.map((customer) => (
         <CustomerBadge data={customer} />
       ))}
     </div>
+    <p className="text-center text-lg font-bold text-blue-700">
+      ¡Gracias por su confianza!
+    </p>
   </div>
 );
 
