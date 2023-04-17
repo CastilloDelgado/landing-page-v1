@@ -1,9 +1,9 @@
 import React from "react";
 
 const Footer = () => (
-  <div className="bg-blue-900 py-3 px-6 w-full flex justify-around text-gray-300">
-    <div>
-      <div className="text-center w-full text-sm flex">
+  <div className="bg-blue-900 py-3 px-6 w-full flex flex-wrap justify-around text-gray-300 border-t-8 border-blue-700">
+    <div className="mb-2">
+      <div className="text-center w-full text-sm flex ">
         <p className="mr-1 font-bold">Termo Aislantes y Derivados S.A de C.V</p>
       </div>
     </div>
