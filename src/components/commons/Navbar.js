@@ -50,13 +50,11 @@ const Navbar = () => {
             {links.map((link) => (
               <Menu.Item className="w-full">
                 {() => (
-                  <a className="w-full">
-                    <Link to={link.path} className="w-full">
-                      <button className="flex w-full items-center px-2 py-1 bg-blue-600 border-b-2 border-gray-300">
-                        {link.title}
-                      </button>
-                    </Link>
-                  </a>
+                  <Link to={link.path} className="w-full">
+                    <button className="flex w-full items-center px-2 py-1 bg-blue-600 border-b-2 border-gray-300">
+                      {link.title}
+                    </button>
+                  </Link>
                 )}
               </Menu.Item>
             ))}

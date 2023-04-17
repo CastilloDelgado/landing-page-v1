@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../assets/17.jpg";
+import image from "../../assets/projects/17.jpg";
 import { Transition } from "@headlessui/react";
 import Button from "./Button";
 
@@ -36,7 +36,10 @@ const Welcome = () => {
           </div>
         </div>
         <div className="w-full md:w-3/5">
-          <img src={image} />
+          <img
+            src={image}
+            alt="Imagen de proyecto de instalación de aislamiento térmico en tuberias"
+          />
         </div>
       </div>
     </Transition>
