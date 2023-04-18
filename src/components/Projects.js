@@ -85,12 +85,12 @@ const Projects = () => {
   return (
     <Layout>
       <div>
-        <div className="w-full flex justify-center bg-secondary-50 border-b-8 border-secondary-300 py-8">
+        <div className="w-full flex justify-center bg-primary-50 border-b-8 border-primary-300 py-8">
           <div className="text-center w-full md:w-1/2 px-8">
-            <p className="text-secondary-900 font-bold text-3xl mb-6">
+            <p className="text-primary-900 font-bold text-3xl mb-6">
               Nuestros Proyectos
             </p>
-            <p className="text-secondary-700 text-justify">
+            <p className="text-primary-700 text-justify">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
