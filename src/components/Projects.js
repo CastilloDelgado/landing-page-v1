@@ -10,7 +10,9 @@ import image_6 from "../assets/projects/6.jpg";
 
 const projects = [
   {
-    color: "primary",
+    borderColor: "border-primary-300",
+    backgroundColor: "bg-primary-50",
+    textColor: "text-primary-900",
     title: "Proyecto Número 1",
     customer: "Grupo Nestlé México",
     location: "Ocotlán, Jalisco, México",
@@ -25,6 +27,9 @@ const projects = [
     ],
   },
   {
+    borderColor: "border-secondary-500",
+    backgroundColor: "bg-secondary-50",
+    textColor: "text-secondary-900",
     color: "secondary",
     title: "Proyecto Número 2",
     customer: "Grupo Nestlé México",
@@ -40,7 +45,9 @@ const projects = [
     ],
   },
   {
-    color: "tertiary",
+    borderColor: "border-tertiary-300",
+    backgroundColor: "bg-tertiary-50",
+    textColor: "text-tertiary-900",
     title: "Proyecto Número 3",
     customer: "Grupo Nestlé México",
     location: "Ocotlán, Jalisco, México",
@@ -55,7 +62,10 @@ const projects = [
     ],
   },
   {
-    color: "primary",
+    borderColor: "border-primary-300",
+    backgroundColor: "bg-primary-50",
+    textColor: "text-primary-900",
+    title: "Proyecto Número 1",
     title: "Proyecto Número 4",
     customer: "Grupo Nestlé México",
     location: "Ocotlán, Jalisco, México",
@@ -74,7 +84,7 @@ const projects = [
 const Projects = () => {
   return (
     <Layout>
-      <div className="py-8">
+      <div>
         <div className="w-full flex justify-center bg-secondary-50 border-b-8 border-secondary-300 py-8">
           <div className="text-center w-full md:w-1/2 px-8">
             <p className="text-secondary-900 font-bold text-3xl mb-6">
