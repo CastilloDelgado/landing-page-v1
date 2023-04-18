@@ -2,6 +2,7 @@ import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import NavbarLink from "./NavbarLink";
 import { Menu } from "@headlessui/react";
+import { companyInfo } from "../../constants";
 
 const links = [
   {
@@ -33,7 +34,7 @@ const Navbar = () => {
     <div className="sticky top-0 bg-primary-500 text-white flex justify-between px-4 py-3 border-b-8 border-primary-800">
       <div>
         <Link to="/">
-          <p className="text-xl font-bold">Company Logo</p>
+          <p className="text-xl font-bold capitalize">{companyInfo.name}</p>
         </Link>
       </div>
       <div className="hidden md:block">

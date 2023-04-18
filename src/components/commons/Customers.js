@@ -65,7 +65,7 @@ const customers = [
 ];
 
 const Customers = () => (
-  <div className="md:py-8 bg-primary-50 border-b-8 border-primary-300">
+  <div className="md:py-8 bg-primary-50 border-b-8 border-primary-300 py-8">
     <div className="w-full flex justify-center">
       <div className="w-1/2">
         <p className="text-center text-2xl font-bold text-primary-700 pb-2">

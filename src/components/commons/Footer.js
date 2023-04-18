@@ -1,20 +1,35 @@
 import React from "react";
+import { companyInfo } from "../../constants";
 
 const Footer = () => (
-  <div className="bg-primary-900 py-3 px-6 w-full flex flex-wrap justify-around text-gray-300 border-t-8 border-primary-700">
-    <div className="mb-2">
-      <div className="text-center w-full text-sm flex ">
-        <p className="mr-1 font-bold">Termo Aislantes y Derivados S.A de C.V</p>
+  <div className="bg-primary-900 py-3 px-6 flex flex-wrap justify-around text-gray-300 border-t-8 border-primary-700">
+    <div className="w-1/2 md:w-full flex flex-col md:flex-row">
+      <div className="mb-2 w-full md:w-1/2">
+        <div className=" text-sm flex mb-2 ">
+          <p className="mr-1 font-bold">{companyInfo.name}</p>
+        </div>
+        <div className=" w-full text-sm flex text-xs">
+          <p className="mr-1 font-bold">Número de contacto:</p>
+          <p className="mr-1">{companyInfo.phone}</p>
+        </div>
+        <div className=" w-full text-sm flex text-xs">
+          <p className="mr-1 font-bold">Correo electrónico:</p>
+          <p className="mr-1">{companyInfo.email}</p>
+        </div>
+        <div className=" w-full text-sm flex text-xs">
+          <p className="mr-1 font-bold">Domicilio:</p>
+          <p className="mr-1 text-left w-80">{companyInfo.address}</p>
+        </div>
       </div>
-    </div>
-    <div className="w-fit">
-      <div className="text-center w-full text-sm flex">
-        <p className="mr-1">Página creada por:</p>
-        <p className="font-bold">Marco Castillo</p>
-      </div>
-      <div className="text-center w-full text-sm flex">
-        <p className="mr-1">Contacto:</p>
-        <p className="font-bold">marcocastillo1997@gmail.com</p>
+      <div className="w-fit w-1/2 text-xs">
+        <div className=" w-full  flex">
+          <p className="mr-1">Página creada por:</p>
+          <p className="font-bold">Marco Castillo</p>
+        </div>
+        <div className=" w-full  flex">
+          <p className="mr-1">Contacto:</p>
+          <p className="font-bold">marcocastillo1997@gmail.com</p>
+        </div>
       </div>
     </div>
   </div>

@@ -2,6 +2,8 @@ import React from "react";
 import image from "../../assets/projects/17.jpg";
 import { Transition } from "@headlessui/react";
 import Button from "./Button";
+import { companyInfo } from "../../constants";
+import WelcomeCarousel from "./WelcomeCarousel";
 
 const Welcome = () => {
   return (
@@ -15,8 +17,8 @@ const Welcome = () => {
       <div className="flex flex-col md:flex-row min-h-full bg-secondary-50 border-b-8 border-secondary-400">
         <div className="w-full md:w-2/5 px-10 py-12 text-center flex items-center ">
           <div className="h-fit ">
-            <p className="text-2xl lg:text-4xl font-bold text-secondary-900 mb-2 lg:mb-12">
-              Termo Aislantes Y Derivados S.A de C.V
+            <p className="text-2xl lg:text-4xl font-bold text-secondary-900 mb-2 lg:mb-12 capitalize">
+              {companyInfo.name}
             </p>
 
             <p className="mb-6 lg:mb-6 text-secondary-700 ">
