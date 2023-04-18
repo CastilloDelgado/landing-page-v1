@@ -8,7 +8,7 @@ import {
 
 const ProjectBadge = ({ project }) => (
   <div
-    className={`${project.textColor} ${project.backgroundColor} ${project.borderColor} px-4 py-6 border-4  mb-4`}
+    className={`${project.textColor} ${project.backgroundColor} ${project.borderColor} px-4 py-6 border-l-8 border-b-8  mb-4`}
   >
     <p className="text-center text-2xl font-bold mr-2 mb-6">{project.title}</p>
 

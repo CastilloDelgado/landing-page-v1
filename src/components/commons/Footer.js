@@ -3,7 +3,7 @@ import { companyInfo } from "../../constants";
 import { EnvelopeIcon, MapIcon, PhoneIcon } from "@heroicons/react/20/solid";
 
 const Footer = () => (
-  <div className="bg-primary-900 py-6  text-gray-300 border-t-8 border-primary-700 w-full flex px-6 md:justify-center">
+  <div className="bg-primary-900 py-6  text-gray-300 border-t-8 border-primary-500 w-full flex px-6 md:justify-center">
     <div className="flex flex-col md:flex-row lg:w-1/2 ">
       <div className="mb-2 lg:w-1/2">
         <div className="text-sm flex mb-2">
