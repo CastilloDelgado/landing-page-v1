@@ -65,14 +65,14 @@ const customers = [
 ];
 
 const Customers = () => (
-  <div className="bg-white py-8">
+  <div className="py-8 bg-primary-50 border-b-8 border-primary-300">
     <div className="w-full flex justify-center">
       <div className="w-1/2">
-        <p className="text-center text-2xl font-bold text-blue-700 pb-2">
+        <p className="text-center text-2xl font-bold text-primary-700 pb-2">
           Nuestros clientes
         </p>
 
-        <p className="text-center text-blue-900 pb-8">
+        <p className="text-center text-primary-900 pb-8">
           Esto son algunos de los clientes con los que hemos colaborado a lo
           largo de nuestra carrera como profesionales del aislamiento térmico.
         </p>
@@ -83,7 +83,7 @@ const Customers = () => (
         <CustomerBadge data={customer} />
       ))}
     </div>
-    <p className="text-center text-lg font-bold text-blue-700">
+    <p className="text-center text-lg font-bold text-primary-700">
       ¡Gracias por su confianza!
     </p>
   </div>

@@ -6,7 +6,7 @@ const ContactForm = () => (
     <div className="w-full py-8 px-6 ">
       <p>¡Contactanos!</p>
     </div>
-    <div className="w-full bg-amber-100 py-8 px-6 border-l-8 border-amber-300">
+    <div className="w-full bg-secondary-50 py-8 px-6 border-l-8 border-secondary-300">
       <EmailForm />
     </div>
   </div>
