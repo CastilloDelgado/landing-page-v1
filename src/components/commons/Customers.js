@@ -43,7 +43,7 @@ const customers = [
     link: "https://www.booking.com/hotel/fr/marena.es.html?aid=311839&label=marena-SWHzAHfnSnvlLoc6W0kiXQS388444254130%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-185280216%3Alp1010079%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YbSsBl3MCvHsG_n86exEUIw&sid=4d9b6e6a66255813a7846d17edfaf535&dest_id=-1456928;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1681770555;srpvid=7ddc9e1dc3fa01c4;type=total;ucfs=1&#hotelTmpl",
   },
   {
-    title: "Casa Siete Leguas",
+    title: "Siete Leguas",
     image: image_siete_leguas,
     link: "https://casasieteleguas.com/",
   },
@@ -65,7 +65,7 @@ const customers = [
 ];
 
 const Customers = () => (
-  <div className="py-8 bg-primary-50 border-b-8 border-primary-300">
+  <div className="md:py-8 bg-primary-50 border-b-8 border-primary-300">
     <div className="w-full flex justify-center">
       <div className="w-1/2">
         <p className="text-center text-2xl font-bold text-primary-700 pb-2">
@@ -78,7 +78,7 @@ const Customers = () => (
         </p>
       </div>
     </div>
-    <div className="flex justify-around px-12 flex-wrap mb-2">
+    <div className="flex justify-around px-4 md:px-12 flex-wrap mb-2">
       {customers.map((customer) => (
         <CustomerBadge data={customer} />
       ))}

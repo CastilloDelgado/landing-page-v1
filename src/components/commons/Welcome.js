@@ -12,7 +12,7 @@ const Welcome = () => {
       enterFrom="opacity-0"
       enterTo="opacity-100"
     >
-      <div className="flex flex-col md:flex-row bg-white min-h-full bg-secondary-50 border-b-8 border-secondary-400">
+      <div className="flex flex-col md:flex-row min-h-full bg-secondary-50 border-b-8 border-secondary-400">
         <div className="w-full md:w-2/5 px-10 py-12 text-center flex items-center ">
           <div className="h-fit ">
             <p className="text-2xl lg:text-4xl font-bold text-secondary-900 mb-2 lg:mb-12">
