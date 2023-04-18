@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import NavbarLink from "./NavbarLink";
 import { Menu } from "@headlessui/react";
 import { companyInfo } from "../../constants";
+import { Bars3Icon, ChevronDownIcon } from "@heroicons/react/20/solid";
 
 const links = [
   {
@@ -46,7 +47,14 @@ const Navbar = () => {
       </div>
       <div className="md:hidden">
         <Menu>
-          <Menu.Button>Opciones</Menu.Button>
+          <Menu.Button>
+            <div className="flex">
+              <Bars3Icon
+                className="ml-2 -mr-1 h-5 w-5 text-violet-200 hover:text-violet-100"
+                aria-hidden="true"
+              />
+            </div>
+          </Menu.Button>
           <Menu.Items className="absolute flex flex-wrap w-32 right-0 mt-2 w-56 origin-top-right  rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none bg-primary-900">
             {links.map((link) => (
               <Menu.Item className="w-full">
