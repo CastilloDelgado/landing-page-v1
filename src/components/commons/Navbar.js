@@ -18,10 +18,10 @@ const links = [
     path: "/proyectos",
     title: "Proyectos",
   },
-  {
-    path: "/galeria",
-    title: "Galería",
-  },
+  // {
+  //   path: "/galeria",
+  //   title: "Galería",
+  // },
   {
     path: "/contacto",
     title: "Contacto",
@@ -34,8 +34,15 @@ const Navbar = () => {
   return (
     <div className="sticky top-0 bg-primary-500 text-white flex justify-between px-4 py-3 border-b-8 border-primary-800">
       <div>
-        <Link to="/">
-          <p className="text-xl font-bold capitalize">{companyInfo.name}</p>
+        <Link to="/" className="flex">
+          <img
+            alt="Logo de la compañía"
+            src={companyInfo.logoImage}
+            className="w-8 h-8 mr-2"
+          />
+          <p className="text-xl font-bold capitalize">
+            {companyInfo.shortName}
+          </p>
         </Link>
       </div>
       <div className="hidden md:block">

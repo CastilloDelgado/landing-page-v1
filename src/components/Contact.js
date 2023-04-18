@@ -1,10 +1,11 @@
 import React from "react";
 import Layout from "./commons/Layout";
+import ContactForm from "./commons/ContactForm";
 
 const Contact = () => {
   return (
     <Layout>
-      <p>Hello from Contact</p>
+      <ContactForm />
     </Layout>
   );
 };

@@ -1,11 +1,13 @@
 import React from "react";
 import Button from "./Button";
+import { EnvelopeIcon } from "@heroicons/react/20/solid";
 
 const EmailForm = () => (
   <div>
     <div>
       <form>
-        <p className="text-lg font-bold mb-2 text-secondary-900">
+        <p className="text-lg font-bold mb-2 text-secondary-900 flex">
+          <EnvelopeIcon className="w-7 h-7 mr-2" />
           Envianos un correo electrónico
         </p>
         <p className="text-justify mb-4 text-secondary-900">

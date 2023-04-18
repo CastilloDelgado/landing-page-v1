@@ -1,5 +1,9 @@
+import logo from "./assets/logo.jpg";
+
 export const companyInfo = {
   name: "Termoaislantes y derivados S.A de C.V",
+  shortName: "Termoaislantes y derivados ",
+  logoImage: logo,
   phone: "3338113359",
   email: "tedesa1@hotmail.com",
   address:
